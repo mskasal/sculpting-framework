@@ -1,0 +1,54 @@
+name: Validate Plugin & Skills
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate manifests, version sync, icon, and SKILL.md frontmatter
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, sys
+
+          root = pathlib.Path(".")
+          p_root = json.loads((root / "plugin.json").read_text())
+          p_claude = json.loads((root / ".claude-plugin/plugin.json").read_text())
+          p_mkt = json.loads((root / ".claude-plugin/marketplace.json").read_text())
+
+          versions = {
+              "plugin.json": p_root["version"],
+              ".claude-plugin/plugin.json": p_claude["version"],
+              ".claude-plugin/marketplace.json": p_mkt["plugins"][0]["version"],
+          }
+          if len(set(versions.values())) != 1:
+              print("ERROR: Manifest versions are out of sync:", versions)
+              sys.exit(1)
+
+          logo = root / p_root["logo"]
+          if not logo.is_file():
+              print(f"ERROR: Logo not found at {logo}")
+              sys.exit(1)
+
+          skills = sorted((root / "skills").glob("*/SKILL.md"))
+          if not skills:
+              print("ERROR: No SKILL.md files found")
+              sys.exit(1)
+
+          for skill in skills:
+              text = skill.read_text()
+              if not text.startswith("---\n"):
+                  print(f"ERROR: Missing YAML frontmatter in {skill}")
+                  sys.exit(1)
+              header = text.split("---\n", 2)[1]
+              if "name:" not in header or "description:" not in header:
+                  print(f"ERROR: Missing name or description in {skill}")
+                  sys.exit(1)
+
+          print(f"OK: version={p_root['version']}, skills={len(skills)}, logo={logo}")
+          PY

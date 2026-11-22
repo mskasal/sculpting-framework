@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <code>v1.0.1</code> &nbsp;&middot;&nbsp; <a href="LICENSE">MIT License</a> &nbsp;&middot;&nbsp; <code>SKILL.md</code> &amp; <code>MCP</code>
+  <code>v1.0.1</code><!-- x-release-please-version --> &nbsp;&middot;&nbsp; <a href="LICENSE">MIT License</a> &nbsp;&middot;&nbsp; <code>SKILL.md</code> &amp; <code>MCP</code>
 </p>
 
 ---
