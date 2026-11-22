@@ -28,6 +28,6 @@ description: Stage 4 of Sculpting Framework (Polish — Implementation Handoff, 
 
 ## Done Gate
 - [ ] All slice ACs, tests, and code reviews passed.
-- [ ] Live telemetry/signals for success criteria are flowing.
+- [ ] Live telemetry/signals for success criteria are flowing *(if applicable — never violate privacy or no-tracker Red Lines)*.
 - [ ] Stakeholders and affected teams notified.
 - [ ] Post-launch impact check logged/scheduled.

@@ -9,7 +9,7 @@
       "name": "sculpting-framework",
       "source": "./",
       "description": "Tool-agnostic, end-to-end Product Engineer operating framework: turn ambiguous problems into aligned, scoped, implementation-ready vertical slices (Block → Rough Cut → Detail → Polish).",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "license": "MIT"
     }
   ]

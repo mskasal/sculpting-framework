@@ -10,9 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="#installation"><img src="https://img.shields.io/badge/version-1.0.0-f59e0b?style=flat-square" alt="Version 1.0.0" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-64748b?style=flat-square" alt="MIT License" /></a>
-  <img src="https://img.shields.io/badge/standard-SKILL.md%20%7C%20MCP-111318?style=flat-square" alt="SKILL.md and MCP Compatible" />
+  <code>v1.0.1</code><!-- x-release-please-version --> &nbsp;&middot;&nbsp; <a href="LICENSE">MIT License</a> &nbsp;&middot;&nbsp; <code>SKILL.md</code> &amp; <code>MCP</code>
 </p>
 
 ---
