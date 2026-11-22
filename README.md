@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <code>v1.0.1</code><!-- x-release-please-version --> &nbsp;&middot;&nbsp; <a href="LICENSE">MIT License</a> &nbsp;&middot;&nbsp; <code>SKILL.md</code> &amp; <code>MCP</code>
+  <code>v1.0.1</code><!-- x-release-please-version --> &nbsp;&middot;&nbsp; <a href="LICENSE">PolyForm Shield 1.0.0</a> &nbsp;&middot;&nbsp; <code>SKILL.md</code> &amp; <code>MCP</code>
 </p>
 
 ---
@@ -108,4 +108,5 @@ npx skills add mskasal/sculpting-framework
 - [Empirical Validation Log (7 Simulations)](docs/simulations.md)
 
 ## License
-[MIT](LICENSE) — created by [Samed Kasal](https://github.com/mskasal).
+[PolyForm Shield 1.0.0](LICENSE) — Copyright © 2026 [Samed Kasal](https://github.com/mskasal).  
+Free to use personally and internally within your team. Packaging, reselling, or redistributing this framework or derivative skill sets as a competing commercial product/service is not permitted without a separate commercial license.
