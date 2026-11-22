@@ -1,0 +1,18 @@
+{
+  "name": "sculpting-framework",
+  "displayName": "Sculpting Framework",
+  "version": "1.0.0",
+  "description": "Tool-agnostic, end-to-end Product Engineer operating framework: turn ambiguous problems into aligned, scoped, implementation-ready vertical slices (Block → Rough Cut → Detail → Polish).",
+  "author": {
+    "name": "Samed Kasal",
+    "url": "https://github.com/mskasal"
+  },
+  "repository": "https://github.com/mskasal/sculpting-framework",
+  "homepage": "https://github.com/mskasal/sculpting-framework",
+  "logo": "assets/icon.png",
+  "suggestedPrompts": [
+    "Start sculpting a new feature from this rough idea",
+    "Run a Rough Cut with options, No-Go/Deferred split, and sign-off table",
+    "Break this approved RFC into conflict-free vertical slices for Detail"
+  ]
+}

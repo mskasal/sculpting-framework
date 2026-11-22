@@ -1,0 +1,21 @@
+{
+  "name": "sculpting-framework",
+  "version": "1.0.0",
+  "description": "Tool-agnostic, end-to-end Product Engineer operating framework (Block → Rough Cut → Detail → Polish) with 5 micro-templates, Fast-Track for small tasks, and a minimal recovery protocol.",
+  "author": {
+    "name": "Samed Kasal",
+    "url": "https://github.com/mskasal"
+  },
+  "repository": "https://github.com/mskasal/sculpting-framework",
+  "license": "MIT",
+  "keywords": [
+    "product-engineer",
+    "product-discovery",
+    "scoping",
+    "rfc",
+    "stakeholder-alignment",
+    "vertical-slicing",
+    "agent-skills"
+  ],
+  "skills": "./skills"
+}
