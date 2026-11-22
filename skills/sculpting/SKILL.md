@@ -21,6 +21,8 @@ Before starting work, check if the workspace has a `sculpting.context.md` (or co
 3. **Tool Adapters:** Docs hub, issue tracker, chat channel, repos, and coding/review skills (or `manual`).
 4. **Red Lines:** Non-negotiable constraints (SLA, GDPR/SOC2, security, zero-downtime).
 
+- **Git & Manual-Mode Policy:** In public/open-source repos, keep `sculpting.context.md` local (add to `.gitignore` or `.git/info/exclude`) unless the team explicitly wants shared context committed. When `manual` mode is used without an external docs hub, store the project's SSoT doc locally (e.g., `docs/sculpt-<slug>.md` or in-thread) rather than inventing ad-hoc files.
+
 ## Step 1: Internal Triage (Do Not Send to Stakeholders)
 Classify the incoming request using 3 questions:
 1. **Uncertainty:** Clear / Partially ambiguous / Wide open?

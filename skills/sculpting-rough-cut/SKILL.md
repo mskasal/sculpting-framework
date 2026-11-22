@@ -38,5 +38,5 @@ Do not advance until:
 - [ ] Single direction, Hard No-Go, and Deferred lists are locked.
 - [ ] **Conditional Approval Lock:** Zero open caveats, vetoes, or `Re-confirm` entries in Template 2.
 - [ ] New vendor/3rd-party cost + DPA/sub-processor sign-off cleared (if applicable).
-- [ ] Pre-Detail Spike completed and logged via **Template 5**.
+- [ ] Pre-Detail Spike completed and logged via **Template 5** *(if external/3rd-party or major technical unknowns exist; mark N/A for pure static/UI work with no external risk)*.
 - [ ] `Living State Card` updated at the top of the SSoT doc (share link/delta only in chat).

@@ -1,6 +1,6 @@
 {
   "name": "sculpting-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool-agnostic, end-to-end Product Engineer operating framework (Block → Rough Cut → Detail → Polish) with 5 micro-templates, Fast-Track for small tasks, and a minimal recovery protocol.",
   "author": {
     "name": "Samed Kasal",

@@ -26,6 +26,7 @@ description: Stage 3 of Sculpting Framework (Detail — Technical Plan, Vertical
    - **Single-Owner Rule:** Never assign the same owner (e.g., 1.0 FTE) to two parallel tracks at the same time.
    - Identify the single synchronization point(s) (e.g., Day 1 contract lock).
    - **1-Line Capacity Confirmation:** Request a 1-line timeline/FTE confirmation from each technical owner before locking the plan.
+   - **Solo-Owner Fast Handoff:** When there is only one technical owner (no parallel track conflicts) and the sole decision maker already approved implementation at the end of Rough Cut, post the vertical slices as a concise FYI and proceed directly to `sculpting-polish` without an extra blocking approval round.
 4. **Update Living State Card & Issue Tracker:** Update the SSoT card and export Template 4 slices to the team's issue tracker (via MCP adapter or formatted copy-ready list).
 
 ## Gate → `sculpting-polish`

@@ -19,7 +19,7 @@ description: Stage 1 of Sculpting Framework (Block — Problem & Value). Use whe
    - Max 3 numbered questions — each explicitly stating **which decision the answer changes**
    - Expected response window
    *(Never include framework jargon in the message. Never auto-send — present drafts for the engineer to send or approve.)*
-4. **Initialize the Living State Card** at the top of the SSoT doc (max 10–15 lines):
+4. **Initialize the Living State Card** at the top of the SSoT doc *(in `manual` mode with no external docs tool, use a single local file like `docs/sculpt-<slug>.md` or keep it pinned in-thread)* (max 10–15 lines):
    - **Active Direction & No-Go:** *(in discovery)*
    - **Superseded:** None
    - **Provisional Assumptions:** *(any delayed stakeholder answer logged with expiry + owner)*
