@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <code>v1.0.1</code><!-- x-release-please-version --> &nbsp;&middot;&nbsp; <a href="LICENSE">PolyForm Shield 1.0.0</a> &nbsp;&middot;&nbsp; <code>SKILL.md</code> &amp; <code>MCP</code>
+  <code>v1.0.1</code><!-- x-release-please-version --> &nbsp;&middot;&nbsp; <a href="https://sculpting.dev">sculpting.dev</a> &nbsp;&middot;&nbsp; <a href="LICENSE">PolyForm Shield 1.0.0</a> &nbsp;&middot;&nbsp; <code>SKILL.md</code> &amp; <code>MCP</code>
 </p>
 
 ---
