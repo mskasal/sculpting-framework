@@ -18,4 +18,4 @@ Refinements discovered during the first live end-to-end build using the installe
 - Initial marketplace-ready release (`plugin.json`, `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`).
 - 5 portable `SKILL.md` skills: `sculpting`, `sculpting-block`, `sculpting-rough-cut`, `sculpting-detail`, `sculpting-polish`.
 - Core framework specification (`docs/framework-v1.0.md`) and 7-simulation empirical validation log (`docs/simulations.md`).
-- Brand icon (`assets/icon.png`) and international English `README.md`.
+- Brand icon and international English `README.md`.

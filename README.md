@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" alt="Sculpting Framework" width="128" height="128" />
+  <img src="https://sculpting.dev/icon.png" alt="Sculpting Framework" width="128" height="128" />
 </p>
 
 <h1 align="center">Sculpting Framework</h1>
@@ -77,7 +77,7 @@ Clone or copy this repository into your Antigravity plugins directory:
 ```bash
 git clone https://github.com/mskasal/sculpting-framework.git ~/.gemini/config/plugins/sculpting-framework
 ```
-*(Antigravity reads the root `plugin.json`, `assets/icon.png`, and `skills/*/SKILL.md` automatically.)*
+*(Antigravity reads the root `plugin.json` and `skills/*/SKILL.md` automatically.)*
 
 ### Claude Code
 Install directly as a Claude Code plugin marketplace repository:
