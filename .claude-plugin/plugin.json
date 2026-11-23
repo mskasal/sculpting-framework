@@ -1,11 +1,13 @@
 {
   "name": "sculpting-framework",
+  "displayName": "Sculpting Framework",
   "version": "1.0.1",
   "description": "Tool-agnostic, end-to-end Product Engineer operating framework (Block → Rough Cut → Detail → Polish) with 5 micro-templates, Fast-Track for small tasks, and a minimal recovery protocol.",
   "author": {
     "name": "Samed Kasal",
     "url": "https://github.com/mskasal"
   },
+  "homepage": "https://sculpting.dev",
   "repository": "https://github.com/mskasal/sculpting-framework",
   "license": "PolyForm-Shield-1.0.0",
   "keywords": [

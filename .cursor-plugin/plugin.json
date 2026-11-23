@@ -1,0 +1,21 @@
+{
+  "name": "sculpting-framework",
+  "version": "1.0.1",
+  "description": "End-to-end Product Engineer framework: turn ambiguous problems into aligned, scoped, implementation-ready vertical slices (Block → Rough Cut → Detail → Polish).",
+  "author": {
+    "name": "Samed Kasal"
+  },
+  "homepage": "https://sculpting.dev",
+  "repository": "https://github.com/mskasal/sculpting-framework",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": [
+    "product-engineer",
+    "product-discovery",
+    "scoping",
+    "rfc",
+    "stakeholder-alignment",
+    "vertical-slicing",
+    "agent-skills"
+  ],
+  "logo": "assets/icon.png"
+}

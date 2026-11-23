@@ -1,15 +1,26 @@
 {
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "sculpting-framework",
   "displayName": "Sculpting Framework",
   "version": "1.0.1",
-  "description": "Tool-agnostic, end-to-end Product Engineer operating framework: turn ambiguous problems into aligned, scoped, implementation-ready vertical slices (Block → Rough Cut → Detail → Polish).",
+  "description": "End-to-end Product Engineer framework: turn ambiguous problems into aligned, scoped, implementation-ready vertical slices (Block → Rough Cut → Detail → Polish).",
   "author": {
     "name": "Samed Kasal",
     "url": "https://github.com/mskasal"
   },
   "repository": "https://github.com/mskasal/sculpting-framework",
   "homepage": "https://sculpting.dev",
+  "license": "PolyForm-Shield-1.0.0",
   "logo": "assets/icon.png",
+  "keywords": [
+    "product-engineer",
+    "product-discovery",
+    "scoping",
+    "rfc",
+    "stakeholder-alignment",
+    "vertical-slicing",
+    "agent-skills"
+  ],
   "suggestedPrompts": [
     "Start sculpting a new feature from this rough idea",
     "Run a Rough Cut with options, No-Go/Deferred split, and sign-off table",
